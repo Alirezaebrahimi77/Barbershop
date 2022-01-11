@@ -1,0 +1,11 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #F3F1F7;
+}
+
+.menuIcon{
+    font-size: 4rem;
+}

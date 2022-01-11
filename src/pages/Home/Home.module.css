@@ -1,0 +1,53 @@
+:root{
+    --background-color: #F3F1F7;
+    --color-black: #100D0B;
+    
+  
+}
+
+.main{
+    width: 100%;
+    background-color: var(--background-color);
+    height: 100vh;
+    padding: 20px;
+
+}
+
+.intro{
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.intro h1{
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+
+.contentHeader{
+  display: flex;
+  justify-content: flex-start;
+}
+.featureItem{
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+
+}
+.featureItemText{
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+.cardWrapper{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding-right: 10px;
+}

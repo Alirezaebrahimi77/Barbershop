@@ -1,0 +1,63 @@
+.article{
+    position: relative;
+    margin: 20px 30px 20px 0;
+    flex: 0 0 auto;
+}
+.cardContent{
+    background-color: #E6E5EB;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    
+}
+.cardImage{
+    width: 280px;
+    height: 250px;
+    position: relative;
+}
+.cardImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardContentHeader{
+    display: flex;
+    align-items: center;
+}
+.cardContentLeft{
+    width: 40px;
+    height: 40px;
+    border: 15px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-right: 20px;
+    
+}
+.cardContentLeft img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.cardTitle{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.cardAddress{
+    color: #B0AEB4;
+    font-size: .8rem;
+}
+
+.cardButton{
+    background-color: #010001;
+    color: #E0DFE1;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
