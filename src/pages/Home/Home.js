@@ -52,13 +52,13 @@ const Home = () => {
     }
     return (
         <main className={styles.main}>
-            <div className={styles.intro}>
+            <div className={`${styles.intro} ${showModal ? styles.invisible : ""}`}>
 
                 <h1>It's time to book <br/> your next haircut</h1>
 
             </div>
 
-            <div className={styles.contectWrapper}>
+            <div className={`${styles.contectWrapper} ${showModal ? styles.invisible : ""}`}>
 
                 <div className={styles.contentHeader}>
                     <div className={styles.featureItem}>

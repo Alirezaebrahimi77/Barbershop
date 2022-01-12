@@ -52,3 +52,6 @@
   padding-right: 10px;
 }
 
+.invisible{
+  visibility: hidden;
+}

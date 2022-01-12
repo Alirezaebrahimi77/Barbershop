@@ -1,0 +1,48 @@
+.singleStaffContainer {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 20px;
+    width: 45%;
+    margin: 30px 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.09);
+}
+
+.avatarContainer{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 15px;
+
+}
+.singleStaffContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name{
+    font-size: 1rem;
+}
+.description{
+    font-size: .8rem;
+    
+    color: #8a8a8a;
+}
+.about{
+    margin-top: 10px;
+    color: #3F7DAA;
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.hr{
+    width: 30px;
+    height: 1px;
+    margin-top: 20px;
+    background-color: lightgray;
+}
