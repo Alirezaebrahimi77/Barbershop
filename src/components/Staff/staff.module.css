@@ -1,0 +1,37 @@
+.staff{
+    position: fixed;
+    height: 90vh;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-radius: 20px;
+    transform: translateY(100%);
+    transition: transform .3s ease-in-out;
+    padding: 30px 20px;
+  }
+  
+  .show{
+    transform: translateY(0);
+  }
+  .staffHeader{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .staffHeaderText{
+      font-weight:700;
+      font-size: 1.3rem;
+  }
+  .staffCloseWrapper{
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      background-color: #F3F1F7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+
+  }

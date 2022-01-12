@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from "./Card.module.css"
-const Card = ({img, title, address, logo}) => {
+const Card = ({img, title, address, logo, openModal}) => {
+
+
     return (
         <aritcle className={styles.article}>
             <div className={styles.cardImage}>
@@ -19,7 +21,7 @@ const Card = ({img, title, address, logo}) => {
                     </div>
                      
                 </div>
-                <button className={styles.cardButton}>Book now</button>
+                <button className={styles.cardButton} onClick={openModal}>Book now</button>
 
             </div>
             
